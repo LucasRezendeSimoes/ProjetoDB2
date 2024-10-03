@@ -1,37 +1,37 @@
-db.createCollection({"Departamentos"}
-
-db.Departamentos.insertOne({
+[
+{
   "_id": "CC",
   "Nome": "Ciências da Computação",
   "Coordenador": {
     "$oid": "66fef0181489d977dc91224d"
   }
-})
-db.Departamentos.insertOne({
+},
+{
   "_id": "AD",
   "Nome": "Administração",
   "Coordenador": {
     "$oid": "66fef0181489d977dc91224d"
   }
-})
-db.Departamentos.insertOne({
+},
+{
   "_id": "EE",
   "Nome": "Eng. Elétrica",
   "Coordenador": {
     "$oid": "66fef0181489d977dc91224d"
   }
-})
-db.Departamentos.insertOne({
+},
+{
   "_id": "ES",
   "Nome": "Estudos Sociais",
   "Coordenador": {
     "$oid": "66fef0181489d977dc91224d"
   }
-})
-db.Departamentos.insertOne({
+},
+{
   "_id": "FI",
   "Nome": "Física",
   "Coordenador": {
     "$oid": "66fef0181489d977dc91224d"
   }
-})
+}
+]
