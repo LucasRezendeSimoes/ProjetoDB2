@@ -1,37 +1,18 @@
-[
 {
-  "_id": "CC",
-  "Nome": "Ciências da Computação",
-  "Coordenador": {
-    "$oid": "66fef0181489d977dc91224d"
-  }
-},
-{
-  "_id": "AD",
-  "Nome": "Administração",
-  "Coordenador": {
-    "$oid": "66fef0181489d977dc91224d"
-  }
-},
-{
-  "_id": "EE",
-  "Nome": "Eng. Elétrica",
-  "Coordenador": {
-    "$oid": "66fef0181489d977dc91224d"
-  }
-},
-{
-  "_id": "ES",
-  "Nome": "Estudos Sociais",
-  "Coordenador": {
-    "$oid": "66fef0181489d977dc91224d"
-  }
-},
-{
-  "_id": "FI",
-  "Nome": "Física",
-  "Coordenador": {
-    "$oid": "66fef0181489d977dc91224d"
-  }
+  "_id": { "$oid": "671139f41d76be1d4b182988" },
+  "RA": "",
+  "Nome": "",
+  "Id_curso": "",
+  "Semestre": { "$numberInt": "1" },
+  "Tot_cred": "",
+  "Hist": [
+    {
+      "Id_disc": "",
+      "Nome_disc": "",
+      "Semestre": { "$numberInt": "0" },
+      "Ano": { "$numberLong": "2024" },
+      "Nota": { "$numberInt": "10" }
+    }
+  ],
+  "Formado": { "$numberLong": "2024" }
 }
-]
