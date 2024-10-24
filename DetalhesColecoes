@@ -1,0 +1,25 @@
+Alunos{
+  RA: <string>
+  Nome: <string>
+  Id_curso: <string>
+  Semestre: <int>
+  Tot_cred: <int>
+  Hist: <array>
+    
+}
+
+Cursos{
+}
+
+Departamentos{
+}
+
+Disciplinas{
+}
+
+Professores{
+}
+
+TCC{
+
+}
