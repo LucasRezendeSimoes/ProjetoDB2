@@ -7,7 +7,7 @@ Participantes:
 Como acessar o banco:
 - Certifique-se de ter python e a biblioteca pymongo instalados na máquina
 - Abra o arquivo "codigo.py"
-- Insira as queries presentes no "queries.py" ou crie queries personalisadas
+- Insira as queries desejadas
 - Execute o código
 
 Queries para inserir e excluir respectivamente do banco de dados:
