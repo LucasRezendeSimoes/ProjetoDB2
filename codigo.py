@@ -8,18 +8,6 @@ try:
     print("Conectado com sucesso!\n\n") # Confirma a conexão
     colecoes = DB['Proj1']
 
-    '''Seleciona as coleções
-    colecoes['<Nome da coleção>']
-
-    Coleções do DB:
-    - Alunos
-    - Cursos
-    - Departamentos
-    - Disciplinas
-    - Professores
-    - TCC
-    '''
-
     ### Queries ###
 
 except Exception as e:
