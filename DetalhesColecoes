@@ -4,22 +4,55 @@ Alunos{
   Id_curso: <string>
   Semestre: <int>
   Tot_cred: <int>
-  Hist: <array>
+  Hist: [{
+    Id_disc: <string>
+    Nome_disc: <string>
+    Semestre: <int>
+    Ano: <int>
+  }]
+  Formado: <int>
     
 }
 
 Cursos{
+  Nome:
+  Coordenador:
+  Ciclo
 }
 
 Departamentos{
+  _id: <string>
+  Nome: <string>
+  Coordenador{
+    Nome: <string>
+    Id: <string>
+  }
 }
 
 Disciplinas{
+  Nome: <string>
+  Depart_id: <string>
+  Codigo: <string>
 }
 
 Professores{
+  Nome: <string>
+  Depart_id: <string>
+  Hist: [{
+    Id_disc: <string>
+    Nome_disc: <string>
+    Semestre: <int>
+    Ano: <int>
+  }]
 }
 
 TCC{
-
+  Alunos:[{
+    Nome: <string>
+    RA: <string>
+  }]
+  Orientador:[{
+    Nome: <string>
+    Id: <string>
+  }]
 }
