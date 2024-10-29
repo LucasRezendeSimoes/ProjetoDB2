@@ -15,9 +15,14 @@ Alunos{
 }
 
 Cursos{
-  Nome:
-  Coordenador:
-  Ciclo
+  Nome: <string>
+  Coordenador: <string>
+  Matriz: {
+    Ciclo #: [{
+      Nome: <string>
+      Id_disc: <string>
+    }]
+  }
 }
 
 Departamentos{
