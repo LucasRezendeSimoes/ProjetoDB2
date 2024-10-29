@@ -10,8 +10,11 @@ Como acessar o banco:
 - Insira as queries desejadas
 - Execute o código
 
-Os detalhes de cada coleção estão no arquivo DetalhesColecoes.txt
-
 Queries para inserir e excluir respectivamente do banco de dados:
 - colecoes['Exemplo'].insert_one({'nome': 'Ex', 'idade': 12})
 - colecoes['Exemplo'].drop()
+
+Os detalhes de cada coleção estão no arquivo DetalhesColecoes.txt
+
+Projeto do semestre passado:
+https://github.com/LucasRezendeSimoes/ProjetoDB
